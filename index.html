@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NARRATIVENOOK</title>
+    <link rel="shortcut icon" href="favicon.webp">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="main-heading">NARRATIVE-NOOK</div>
+        <div class="info">Explore NarrativeNook, your personal storybook haven. Select a genre, generate captivating stories, and immerse yourself in new adventures. Whether you’re a reader or a creator, your next favorite story is just a click away!</div>
+        <!-- Genre Selection -->
+        <div id="genre-selection">
+            <div class="subHeading">Select Your Genre</div>
+            <div id="genre-buttons">
+                <button class="genre-button" data-genre="fantasy">Fantasy</button>
+                <button class="genre-button" data-genre="sci-fi">Science Fiction</button>
+                <button class="genre-button" data-genre="mystery">Mystery</button>
+                <button class="genre-button" data-genre="romance">Romance</button>
+                <button class="genre-button" data-genre="custom">Custom</button>
+            </div>
+            <input type="text" id="custom-genre" placeholder="Enter your genre" style="display:none;">
+            <button class="choice-button" id="generate-story-btn" onclick="generateStoryOptions()">Generate Story Lines</button>
+        </div>
+        
+        <!-- Story Options -->
+        <div id="story-options" style="display:none;">
+            <div class="subHeading">Choose Your Storyline</div>
+            <div class="mini-subheading">Click on below storyline to open full story:</div>
+            <div id="options-list"></div>
+        </div>
+        
+        <!-- Story Display -->
+        <div id="story">
+            <p id="narration"></p>
+        </div>
+    </div>
+    
+    <script type="module" src="script.js" defer></script>
+</body>
+</html> 

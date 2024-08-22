@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C8A1E0;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    margin: 20px auto;
+    padding: 20px;
+    background: #C8A1E0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+#main-heading{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.choice-button {
+    width: 250px;
+    font-size: 22px;
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    background-color: #7A1CAC;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.choice-button:hover {
+    color: #EBD3F8;
+    background-color: #333;
+}
+#genre-selection{
+    margin-bottom: 20px;   
+}
+
+#story-options, #options-list{
+    max-width: 1025px;
+    color: #fff; 
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#genre-selection{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#custom-genre {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#genre-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 4px; 
+}
+
+.genre-button {
+    background-color: #e7f0ff; 
+    border: 4px solid #7A1CAC;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:30px;
+    cursor: pointer;
+    color: #7A1CAC;
+}
+
+.genre-button:hover{
+    background-color: #7A1CAC;
+    color: #e7f0ff;
+}
+
+.genre-button:active {
+    background-color: #7A1CAC; 
+    color: #fff; 
+}
+
+
+.story-option-button {
+    background-color: #E2BFD9; 
+    border: 1px solid #E2BFD9;
+    color: #333;
+    font-size: 19px; 
+    padding: 15px; 
+}
+
+.story-content-display{
+    max-width: 1025px;
+    font-size: 20px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.story-display strong {
+    font-size: 100px;
+    color: #333;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.subHeading{
+    text-decoration:underline;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: black;
+}
+
+.mini-subheading{
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.info{
+    max-width: 1080px;
+    padding-top: 20px;
+    margin: auto;
+    font-size: 20px;
+}
